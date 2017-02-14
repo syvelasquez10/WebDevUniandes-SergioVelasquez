@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <title>Yodeb.co</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML5 Resume/CV Template for Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./vis-4.18.1/dist/vis.js"></script>
+    <link href="./vis-4.18.1/dist/vis.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        #mynetwork {
+            width: 100%;
+            height: 300px;
+        }
+        .link{
+            font-size: 0.8em;
+        }
+    </style>
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles-6.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head> 
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile" src="assets/images/profile.png" alt="" />
+                <h3 >Sergio Yodeb Velasquez Yepes</h3>
+                <h3 class="tagline">Systems Engineer Student</h3>
+            </div><!--//profile-container-->
+
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li class="email"><i class="fa fa-envelope"></i>syvelasquez@yodeb.co</li>
+                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="https://co.linkedin.com/in/sergio-yodeb-velasquez-yepes-49583a103" target="_blank">https://co.linkedin.com/in/sergio-yodeb-velasquez-yepes</a></li>
+                    <li class="github"><i class="fa fa-github"></i><a id="githubID" href="http://github.com/syvelasquez10" target="_blank">syvelasquez10</a>
+                    </li>
+                    <li class="github">
+                        <h4><strong>Github Followers:</strong></h4>
+                        Play with the grafic, click any folllower to go their github page.
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div id="mynetwork"></div>
+                                </div>
+                                <i class="link"><a href="http://visjs.org/"> Grafics by: Vis JS</a></i>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div><!--//contact-container-->
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Education</h2>
+                <div class="item">
+                    <h4 class="degree">BSc in Computing and Systems Engineering</h4>
+                    <h5 class="meta">Universidad de Los Andes, Colombia</h5>
+                    <div class="time">2013 - Present</div>
+                </div><!--//item-->
+            </div><!--//education-container-->
+
+            <div class="languages-container container-block">
+                <h2 class="container-block-title">Languages</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Spanish <span class="lang-desc">(Native)</span></li>
+                    <li>English <span class="lang-desc">(Professional)</span></li>
+                </ul>
+            </div><!--//interests-->
+
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">Interests</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Running</li>
+                    <li>VoleyBall</li>
+                    <li>Photography</li>
+                </ul>
+            </div><!--//interests-->
+
+        </div><!--//sidebar-wrapper-->
+
+        <div class="main-wrapper">
+
+            <section class="section summary-section">
+                <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
+                <div class="summary">
+                    <p>Computing and Systems Engineer Student at Universidad de los Andes, Colombia.
+                    Leader of ANDAR, network of volunteer students that supports scholarship students.</p>
+                </div><!--//summary-->
+            </section><!--//section-->
+            <section class="section experiences-section">
+                <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Engineer intern</h3>
+                            <div class="time">June 2016 - Present</div>
+                        </div><!--//upper-row-->
+                        <div class="company">IBM, Colombia</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Engineer intern at Global Technology Services, Infrastructure Services, Middleware & SOA Administration.
+                        Development of Automation projects to improve the administration of  Middleware services  reducing 130 hours of administration per month. Middleware like IBM Websphere Application Server and Oracle WebLogic Server.</p>
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Research Assistant in IMAGINE Group</h3>
+                            <div class="time">January 2016- April 2016</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Universidad de Los Andes, Colombia</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Development of an image processing pipeline, for Multimodal Content Based Retrieval of Brain Images research.</p>  
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Teacher Assistant of Software Development in Teams</h3>
+                            <div class="time">July 2015- November 2015</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Universidad de Los Andes, Colombia</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Helped rating the code that the students develop and how well they work in groups of five persons.</p>  
+                    </div><!--//details-->
+                </div><!--//item-->
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Coordinator of ANDAR</h3>
+                            <div class="time">January 2016- Present & June 2014-November 2014</div>
+                        </div><!--//upper-row-->
+                        <div class="company"><a href="http://andar.uniandes.edu.co">ANDAR</a>, Universidad de Los Andes, Colombia</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Volunteer, leading multidisciplinary groups (over 50 students), development and execution of projects concerning: academic  help,  development  of  community  and improvement of own abilities.</p>  
+                    </div><!--//details-->
+                </div><!--//item-->
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Leader of ANDAR, Bogotá, Colombia</h3>
+                            <div class="time">December 2014 - April 2015</div>
+                        </div><!--//upper-row-->
+                        <div class="company"><a href="http://andar.uniandes.edu.co">ANDAR</a>, Universidad de Los Andes, Colombia</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Volunteer, leading development and execution of projects concerning: academic  help,  development  of  community  and improvement of own abilities.</p>  
+                    </div><!--//details-->
+                </div><!--//item-->
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Volunteer of ANDAR, Bogotá, Colombia</h3>
+                            <div class="time">November 2013 - June 2014</div>
+                        </div><!--//upper-row-->
+                        <div class="company"><a href="http://andar.uniandes.edu.co">ANDAR</a>, Universidad de Los Andes, Colombia</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Volunteer in projects concerning: academic  help,  development  of  community  and improvement of own abilities.</p>  
+                    </div><!--//details-->
+                </div><!--//item-->
+            </section><!--//section-->
+
+            <section class="section projects-section">
+                <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
+                <div class="item">
+                    <span class="project-title"><a href="http://andarbooks.herokuapp.com">ANDAR-Books</a></span> - <span class="project-tagline">Web based application that allow Universidad de los Andes Students to ask for books and borrow them. It keeps track of the borrowed books and let the people know which are available and which are not. Developed by a team of 2 persons. Designed and  implemented back-end and front-end of the application using Java, HTML5, CSS3 on Play Framework.</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="" target="_blank">TBC</a></span> - 
+                    <span class="project-tagline">Web based application simulating the IT infrastructure of an imaginary transit company with 5000 vehicles. Developed by a team of 5 students. Designed and implemented components in the front-end and back-end of the application using Java, HTML5, CSS3 and AngularJS. </span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title"><a href="http://andar.uniandes.edu.co" target="_blank">ANDAR Web Page</a></span> - <span class="project-tagline">A responsive website designed to show information about ANDAR group</span>
+                </div><!--//item-->
+            </section><!--//section-->
+
+            <section class="skills-section section">
+                <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+                <div class="skillset">        
+                    <div class="item">
+                        <h3 class="level-title">Java &amp; Play</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="85%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="level-title">Angular</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="70%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="level-title">Javascript &amp; jQuery</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="50%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="level-title">HTML5 &amp; CSS</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="80%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="level-title">C &amp; C++</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="50%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="level-title">BPMN</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="60%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="level-title">UML</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="80%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    <div class="item">
+                        <h3 class="level-title">GIT</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="80%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                </div>  
+            </section><!--//skills-section-->
+            <section class="section projects-section">
+                <h2 class="section-title"><i class="fa fa-trophy"></i>Awards</h2>
+                <div class="item">
+                    <span class="project-title">2013</span> - <span class="project-tagline">1st place, Expo-Andes fair, leader of the group.</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title">2013</span> - 
+                    <span class="project-tagline">“Quiero Estudiar Escala” Scholarship at Los Andes University.</span>
+                </div><!--//item-->
+                <div class="item">
+                    <span class="project-title">2011</span> - <span class="project-tagline">3rd place, Konrad Lorenz Marathon of Programing, member of the team.</span>
+                </div><!--//item-->
+
+                <div class="item">
+                    <span class="project-title">2009</span> - <span class="project-tagline">1st place, Konrad Lorenz Marathon of Programing, member of the team.</span>
+                </div><!--//item-->
+
+                <div class="item">
+                    <span class="project-title">2008</span> - <span class="project-tagline">Contestant in the final of the Colombian Computer Olympiads</span>
+                </div><!--//item-->
+            </section><!--//section-->
+        </div><!--//main-body-->
+    </div>
+
+    <footer class="footer">
+        <div class="text-center">
+                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="./js/cargarRed.js"></script>
+</body>
+</html> 
+
