@@ -59,9 +59,17 @@ function nuevaRed(nodoInicio) {
 
     function cargarNuevaRed() { 
         var contador= nodos.length+1;
-        for(var i=0;i<valores.length;i++){
-            nodos.push({id:i+contador,label:valores[i].login});
-            caminos.push({from:nodoInicio,to:i+contador});
+        var iguales = false;
+        for(var i=0;i<valores.length;i++) {
+            for(var j=0;j<nodos.length && !iguales;j++) {
+                if(nodos[j].label===valores[i].login) {
+                    iguales = true;
+                }
+            }
+            if(!iguales) {
+                nodos.push({id:i+contador,label:valores[i].login});
+                caminos.push({from:nodoInicio,to:i+contador});
+            }        
         }
         // create an array with nodes
         nodes= new vis.DataSet(nodos);
@@ -94,5 +102,10 @@ function listen(){
         if(!(params.nodes[0]===1)){
             nuevaRed(params.nodes[0]);
         }
+    });
+    network.on("doubleClick", function (params) {
+        console.log(nodos[params.nodes[0]-1]);
+        window.location.href = "http://github.com/"+nodos[params.nodes[0]-1].label;
+
     });
 }
