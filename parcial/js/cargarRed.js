@@ -110,7 +110,6 @@ function listen(){
     network.on("doubleClick", function (params) {
         console.log(nodos[params.nodes[0]-1]);
         window.location.href = "http://github.com/"+nodos[params.nodes[0]-1].label;
-
     });
 }
 
