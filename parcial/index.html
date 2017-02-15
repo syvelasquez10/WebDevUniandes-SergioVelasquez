@@ -47,31 +47,29 @@
           <br>
         <p><a class="btn btn-lg btn-success" href="javascript:crearRed()" role="button">Explorar</a></p>
       </div>
-        <section id="red">
-            <div style="display: none;" class="refrescar" >
-                        Juega con el grafo, si das doble click sobre un  folllower te enviara a su página de github o si haces un click simple podras ver sus seguidores. Si quieres empezar una nueva busqueda selecciona el boton que está más abajo.
+        <div style="display: none;" class="refrescar" >
+                    Juega con el grafo, si das doble click sobre un  folllower te enviara a su página de github o si haces un click simple podras ver sus seguidores. Si quieres empezar una nueva busqueda selecciona el boton que está más abajo.
+        </div>    
+        <br>
+        <div style="display: none;" class="refrescar row">
+            <div class="col-md-10">
+                <div style="float:right;">Recargar el grafo a su estado original <a href='javascript:crearRed()'><i class="fa fa-refresh fa-5" aria-hidden="true"></i></a></div>
+            </div>
+        </div>
+        <div style="display: none;" class="refrescar" id="mynetwork"></div>
+        <div  style="display: none;" class="refrescar row">
+            <div class="col-md-1">
             </div>    
-            <br>
-            <div style="display: none;" class="refrescar" class="row">
-                <div class="col-md-10">
-                    <div style="float:right;">Recargar el grafo a su estado original <a href='javascript:crearRed()'><i class="fa fa-refresh fa-5" aria-hidden="true"></i></a></div>
-                </div>
+            <div class="col-md-10">
+                <i class="link"><a href="http://visjs.org/"> Grafics by: Vis JS</a></i>
+
             </div>
-            <div style="display: none;" class="refrescar" id="mynetwork"></div>
-            <div style="display: none;" class="refrescar" class="row">
-                <div class="col-md-1">
-                </div>    
-                <div class="col-md-10">
-                    <i class="link"><a href="http://visjs.org/"> Grafics by: Vis JS</a></i>
-                    
-                </div>
-            </div>
-            <br>
-            <br>
-                <a style="text-align: center; display: none;" class="btn btn-lg btn-success refrescar" href="javascript:mostrar()" role="button">Nueva busqueda</a>
-            <br>
-             <br>
-        </section>
+        </div>
+        <br>
+        <br>
+            <a style="text-align: center; display: none;" class="btn btn-lg btn-success refrescar" href="javascript:mostrar()" role="button">Nueva busqueda</a>
+        <br>
+        <br>
       <footer class="footer" >
         <p>2017 Sergio Velasquez - Para conocer más acerca del desarrollador da <a href="https://syvelasquez10.github.io/WebDevUniandes-SergioVelasquez/proyecto1%20/">click aquí</a></p>
       </footer>
